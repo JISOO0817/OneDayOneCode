@@ -1,4 +1,5 @@
 package Day1
 
-class BOJ2557 {
+fun main() {
+    print("Hello World!")
 }
