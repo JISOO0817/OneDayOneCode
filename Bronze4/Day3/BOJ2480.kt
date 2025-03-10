@@ -23,7 +23,7 @@ fun main() {
     when (tempArray.size) {
         1 -> bw.write((10000 + (sameNum * 1000)).toString())
         2 -> bw.write((1000 + (sameNum * 100)).toString())
-        else -> bw.write((tempArray.max() * 100).toString())
+//        else -> bw.write((tempArray.max() * 100).toString())
     }
 
     bw.flush()
